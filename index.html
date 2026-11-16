@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shotaro Takakura — Portfolio</title>
+<meta name="description" content="Showreel and selected work by Shotaro Takakura: AI short films, motion graphics, writing and small interactive projects.">
+<style>
+  :root { --bg:#0e0e10; --fg:#ececec; --mute:#9a9aa2; --line:#26262b; --accent:#e8b45a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width:960px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-weight:normal; letter-spacing:.08em; font-size:2rem; margin:0 0 4px; }
+  .sub { color:var(--mute); margin:0 0 32px; }
+  video { width:100%; border:1px solid var(--line); background:#000; display:block; }
+  h2 { font-weight:normal; letter-spacing:.06em; font-size:1.2rem; border-bottom:1px solid var(--line); padding-bottom:6px; margin:48px 0 16px; }
+  .work { display:grid; grid-template-columns:200px 1fr; gap:20px; margin-bottom:28px; }
+  .work img { width:100%; border:1px solid var(--line); display:block; }
+  .work h3 { margin:0 0 4px; font-weight:normal; font-size:1.1rem; }
+  .meta { color:var(--accent); font-size:.85rem; margin:0 0 6px; }
+  .work p { margin:0 0 6px; }
+  a { color:var(--fg); }
+  ul.list { padding-left:18px; }
+  ul.list li { margin-bottom:6px; }
+  footer { color:var(--mute); margin-top:56px; font-size:.9rem; }
+  @media (max-width:640px) { .work { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>SHOTARO TAKAKURA</h1>
+  <p class="sub">AI filmmaking · writing · motion graphics — Tokyo, Japan</p>
+
+  <video controls preload="metadata" poster="showreel-2026-thumb.jpg">
+    <source src="showreel-2026.mp4" type="video/mp4">
+  </video>
+  <p class="sub" style="margin-top:8px">Showreel 2026 (1:12). <a href="showreel-2026.mp4">Download MP4</a></p>
+
+  <h2>Films</h2>
+
+  <div class="work">
+    <img src="the-last-word.jpg" alt="Still from The Last Word: a child beside a glowing home AI by a fireplace">
+    <div>
+      <h3>The Last Word</h3>
+      <p class="meta">AI short film · 82 s · 2026 · AI LAB CREATION, Open Division entry</p>
+      <p>2089. The last speaker of a mountain language has died, and the only one who still remembers it is an old home AI. A hearing declares the language dead; a child by a fireplace proves it is still alive.</p>
+      <p>Script, edit and original score by me. Stills generated with Gemini, motion with AKOOL image-to-video and talking photo, extra voices with edge-tts. The language “Kaelun” is fictional.</p>
+    </div>
+  </div>
+
+  <div class="work">
+    <img src="kitaku-no-oshi.jpg" alt="Frame from Kitaku no Oshi: a hillside road and a title card">
+    <div>
+      <h3>Kitaku no Oshi — Three Hills of Kita Ward</h3>
+      <p class="meta">Vertical motion-graphics short · 56 s · 2026 · Kumamoto City Kita Ward media contest entry</p>
+      <p>A hand-built motion-graphics piece about a ward in Kumamoto: a battlefield slope now covered in cherry blossoms, the biggest watermelon fields in Japan, and a hot-spring town that has been running since the Meiji era.</p>
+      <p><a href="https://youtube.com/shorts/c33shKH-MYc">Watch on YouTube</a></p>
+    </div>
+  </div>
+
+  <h2>In development</h2>
+  <div class="work" style="grid-template-columns:1fr">
+    <div>
+      <h3>Lost Property, Tomorrow</h3>
+      <p class="meta">Teaser for a six-episode limited series · about 90 s · for Cascade Greenlight</p>
+      <p>At the last station on a Tokyo commuter line, a night clerk in the lost-and-found office starts receiving items that people will lose tomorrow — until she finds a tag with her own name on it. Script, 17-shot list and subtitles are written; shots will be generated in Cascade with Seedance.</p>
+    </div>
+  </div>
+
+  <h2>Other work</h2>
+  <ul class="list">
+    <li><a href="https://classnow.itch.io/in-the-black">In the Black</a> — browser game with design document and budget (ZOUD GameLab jam, 2026)</li>
+    <li><a href="https://devpost.com/software/veil-1pr6b7">Veil</a> — hybrid on-device AI project (#BuildHybridAI 2026), <a href="https://youtu.be/gEQJn1P5fXA">video</a></li>
+    <li><a href="https://devpost.com/software/phantom-watt-hunter">Phantom Watt Hunter</a> — standby-power audit tool, <a href="https://youtu.be/r3P1oPuDQMY">video</a></li>
+    <li><a href="https://devpost.com/software/lessonpack">LessonPack</a> — offline language lessons for shared phones, <a href="https://youtu.be/4KsMtj0pSYU">video</a></li>
+    <li><a href="https://devpost.com/software/pause-before-pay">Pause Before Pay</a> — on-device scam-message checker, <a href="https://youtu.be/_ySNtQo9DbI">video</a></li>
+    <li><a href="https://github.com/Class-now">GitHub: Class-now</a></li>
+  </ul>
+
+  <footer>
+    Shotaro Takakura · Kokugakuin University, Faculty of Letters ·
+    <a href="mailto:shotaro.takakura@gmail.com">shotaro.takakura@gmail.com</a> ·
+    <a href="https://www.linkedin.com/in/shotaro-takakura-4a35b03bb/">LinkedIn</a>
+  </footer>
+</main>
+</body>
+</html>
